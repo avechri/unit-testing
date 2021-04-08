@@ -1,5 +1,5 @@
 import AppHeader from '@/components/AppHeader.vue'
-import { mount } from "@vue/test-utils";
+import { mount } from '@vue/test-utils'
 
 describe('AppHeader', () => {
   test('If user is not logged in, do not show logout button', () => {
@@ -10,6 +10,7 @@ describe('AppHeader', () => {
 
   test('If user is logged in, show logout button', () => {
     const wrapper = mount(AppHeader)
+    wrapper.setData({ loggedIn: true })
     expect(wrapper.find('button').isVisible()).toBe(true)
   })
 })
