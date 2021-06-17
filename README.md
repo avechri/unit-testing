@@ -1,29 +1,14 @@
-# unit-testing
+# unit-testing (using Jest)
 
-## Project setup
-```
-npm install
-```
+## О проекте
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Этот проект я делала в рамках курса Vue Matery: Unit Testing.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Что я вынесла из курса: 
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- узнала о самых популярных инструментах тестирования
+- узнала, что нужно тестировать, а что – нет
+- научилась определять, стоит ли тестировать компонент
+- научилась ориентироваться в документации Jest
+- узнала и использовала некоторые Vue Test Utils
+- научилась писать тесты простых компонентов (с использованием async/await, wrapper etc)
